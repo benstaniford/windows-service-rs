@@ -9,7 +9,7 @@ complete source code of such program take a look at examples folder.
 
 ### Basics
 
-Each windows service has to implement a service entry function `fn(argc: u32, argv: *mut *mut
+Each windows service has to implement a service entry function `fn(argc: u32, argv: *mut *mut 
 u16)` and register it with the system from the application's `main`.
 
 This crate provides a handy [`define_windows_service!`] macro to generate a low level
