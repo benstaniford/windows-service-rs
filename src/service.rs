@@ -1773,7 +1773,7 @@ pub enum ParseRawError {
 
 fn string_from_guid(guid: &GUID) -> String {
     format!(
-        "{:8X}-{:4X}-{:4X}-{:2X}{:2X}-{:2X}{:2X}{:2X}{:2X}{:2X}{:2X}",
+        "{:8X}-{:4X}-{:4X}-{:2X}{:2X}-{:2X}{:2X}{:2X}{:2X}{:2X}{:2X}", 
         guid.data1,
         guid.data2,
         guid.data3,
